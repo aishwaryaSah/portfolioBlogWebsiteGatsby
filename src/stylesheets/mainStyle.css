@@ -1,0 +1,205 @@
+html, body { height: 100%; }
+
+.body-page{
+  background-color:rgb(240, 240, 240);
+  height: 95vh;
+  width:100%;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto
+{
+  padding:0px;
+}
+.infoside {
+  height:95vh;
+  overflow: scroll;
+  background-color: #123c69;
+  /* position: fixed; */
+}
+.infoside img{
+  width:100%;
+  height: 92vh;
+}
+.imgPort{
+  background-image: url("../images/background1.jpg");
+  background-size: 100% 100%;
+  min-height: 100%;
+  /* opacity: .5; */
+}
+.imgPort .writeup{
+  padding-top:25vh;
+  padding-left: 25vw; 
+}
+.eachArticle{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px gray solid;
+}
+.sub-title{
+  font-size:20px;
+  text-decoration: underline;
+  padding-top:20px;
+  font-family: system-ui;
+  padding-bottom: 20px;
+  padding-left: 5px;
+}
+.sub-info{
+  font-size:20px;
+  padding-top:20px;
+  font-family: system-ui;
+  padding-bottom: 20px;
+  padding-left: 5px;
+}
+
+.infoside .pageHead{
+  text-align: center;
+  width:100%;
+  color: #73BAB8;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color:  #123c69;
+}
+
+.infoside .pageHead p{
+  font-size: 26px;
+}
+
+.infoside .box_block .aboutp{
+  font-size: 21px;
+  text-align: justify;
+  color:white;
+  padding-top: 1%;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.infoside table {
+  table-layout: fixed ;
+  width: 100% ;
+}
+.infoside .box_block .box-title{
+  padding-top:10px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-family: system-ui;
+  padding-left: 5px;
+}
+.articleDate{
+  float:left;
+}
+.articleTopic{
+  float:right;
+}
+.articles{
+  padding-left:20px;
+  padding-right: 20px;
+}
+
+.article-section{
+  background-color: #123c69;
+}
+.article-space{
+  margin-right: 15%;
+  color: #eee2dc;
+  margin-left: 15%;
+  margin-top: 4%;
+  min-height:95vh;
+  overflow: scroll
+}
+.article-space .article-title{
+  border-bottom: 1px solid black;
+}
+.article-space .article-footer{
+  border-top: 1px solid black;
+  font-size: 25px;
+  text-align: right;
+  color:#73BAB8;
+  padding:20px;
+}
+.article-space .article-title h2{
+  font-size: 35px;
+  color:#73BAB8;
+  font-family: fantasy;
+}
+.article-space .article-title p{
+  display: inline;
+  font-size: 20px;
+  font-family: monospace;
+}
+.article-space .article-title .authorname{
+  float: right;
+}
+.article-space .article-content{
+  padding-top: 3%;
+}
+
+@media (min-width: 576px) {
+  .card-deck .card {
+      min-width: 50.1%; 
+      margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-deck .card {
+      min-width: 33.4%;  
+  }
+}
+
+@media (min-width: 992px) {
+  .card-deck .card {
+      min-width: 25.1%; 
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-deck .card {
+      min-width: 20.1%;  
+  }
+}
+.cardblock{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.tagline-content{
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  display: flex;
+  margin-left: 25%;
+  padding-bottom: 10%;
+}
+.infoside .box_block .profileimage{
+  height:18rem;
+  padding-left:20%;
+  padding-right: 20%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.infoside .box_block .container{
+  max-width:100%;
+}
+.infoside .box_block .tagline-content img{
+  height:26px;
+  width:36px;
+  margin-top:5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.contact-text{
+  font-size: 23px;
+  color: white;
+  padding: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact-text p{
+  padding-left: 5%;
+}
+
+
+.article-space .article-content .blog-space{
+  background-color: black;
+}
+.article-section .my-class1 .blog-space p{
+  color:red;
+}

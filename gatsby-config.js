@@ -2,7 +2,7 @@ const website = require('./src/config/website');
 const pathPrefix = website.pathPrefix === '/' ? '' : website.pathPrefix
 
 module.exports ={
-  pathPrefix: '/asah27.github.io',
+  pathPrefix: '/aishwaryaSah.github.io',
   siteMetadata: {
     siteUrl: website.url + pathPrefix, // For gatsby-plugin-sitemap
     pathPrefix,
@@ -29,7 +29,7 @@ module.exports ={
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Aishwarya Sah`,
-        short_name: `asah27`,
+        short_name: `aishwaryaSah`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -56,5 +56,5 @@ module.exports ={
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-  pathPrefix: "/asah27.github.io",
+  pathPrefix: "/aishwaryaSah.github.io",
 }

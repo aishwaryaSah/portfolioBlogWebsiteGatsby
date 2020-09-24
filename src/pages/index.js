@@ -18,7 +18,7 @@ class IndexPage extends Component{
                   <div className="writeup">
                     <h3>Hello!       I'm</h3>
                     <h1>Aishwarya Sah.</h1>
-                    <h2>Developer at Vmware</h2>
+                    <h2>Software Engineer at VMware</h2>
                   </div>
                 </div>
               </div>

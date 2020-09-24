@@ -44,11 +44,11 @@ class CompactSidebar extends Component{
         <OverlayTrigger
           overlay={
             <Tooltip id={`tooltip`}>
-              https://github.com/asah27
+              https://github.com/aishwaryaSah
             </Tooltip>
           }
         >
-          <a href="https://github.com/asah27" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/aishwaryaSah" target="_blank" rel="noopener noreferrer">
             <img alt="Github" src={github}></img>
           </a>
         </OverlayTrigger>

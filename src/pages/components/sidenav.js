@@ -23,10 +23,10 @@ class SideNav extends Component{
       alt=""
       />
       <h2>Aishwarya Sah</h2>
-      <h4>Developer @VMWare</h4>
+      <h4>Software Engineer @VMware</h4>
       <hr></hr>
       <div className="aboutme_short">
-        Hi !! I am Aishwarya Sah. Currently I am working at VMWare with the Cloud Marketplace team.
+        Hi !! I am Aishwarya Sah. Currently I am working at VMware with the Cloud Marketplace team.
         I am really passionate about technology and look out for different ways to comtibute in the area.
       </div>
       <br></br>
@@ -53,11 +53,11 @@ class SideNav extends Component{
         <OverlayTrigger
           overlay={
             <Tooltip id={`tooltip`}>
-              https://github.com/asah27
+              https://github.com/aishwaryaSah
             </Tooltip>
           }
         >
-          <a href="https://github.com/asah27" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/aishwaryaSah" target="_blank" rel="noopener noreferrer">
             <img alt="Github" src={github}></img>
           </a>
         </OverlayTrigger>

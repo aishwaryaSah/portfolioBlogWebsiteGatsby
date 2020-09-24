@@ -44,7 +44,7 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "deploy:github": "npm run build && node ./scripts/deploy-github",
-    "deploy:netlify": "npm i && npm run build"
+    "deploy:netlify": "npm i && npm run develop"
   },
   "repository": {
     "type": "git",

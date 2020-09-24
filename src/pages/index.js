@@ -16,7 +16,7 @@ class IndexPage extends Component{
               <div className="infoside">
                 <div className="imgPort">
                   <div className="writeup">
-                    <h3>Hello!       I'm</h3>
+                    <h3>Hello!      I'm</h3>
                     <h1>Aishwarya Sah.</h1>
                     <h2>Software Engineer at VMWare</h2>
                   </div>
